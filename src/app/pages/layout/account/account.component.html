@@ -1,0 +1,9 @@
+
+
+<div mat-dialog-content>
+    <p>User: {{ username }}</p>
+    <p>Rol: {{ nameRole }} - {{ rol?.description }}</p>
+</div>
+<div mat-dialog-actions style="margin-top:20px; width: 100%; display: flex; justify-content: center;">
+    <button mat-button (click)="cerrarDialogo()" cdkFocusInitial>Close</button>
+</div>
